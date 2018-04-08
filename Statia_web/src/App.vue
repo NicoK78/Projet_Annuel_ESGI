@@ -47,15 +47,5 @@ nav{
   position: fixed;
 }
 
-.backWhite{
-  background: white;
-}
 
-.backBlue{
-  background: #66ccff;
-}
-
-.pull-left{
-  float: left;
-}
 </style>

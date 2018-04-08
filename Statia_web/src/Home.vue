@@ -1,8 +1,8 @@
 <template>
   <div id="home">
     <div class="container">
-       <img src="./assets/FondAccueil.png" width="1000px" height="620px" alt="">
-      <div class="row mt-4">
+       <img class="m-3" src="./assets/FondAccueil.png" width="1000px" height="620px" alt="">
+      <div class="row m-5">
         <div class="col-md-2">
           <img src="./assets/barStatia.png" width="95px" height="120px" alt="">
         </div>
@@ -57,20 +57,6 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 2px;
-}
-
-nav{
-  background-color:#d3f8ff;
-  position: fixed;
-}
-
 .backWhite{
   background: white;
 }

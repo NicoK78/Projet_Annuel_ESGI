@@ -13,7 +13,7 @@
             <router-link class="nav-link" to="/solutions">Solutions</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">A Propos</a>
+            <router-link class="nav-link" to="/apropos">A Propos</router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
@@ -43,8 +43,11 @@ export default {
 }
 
 nav{
+  top : 0;
   background-color:#d3f8ff;
-  position: fixed;
+  position: fixed !important;
+  z-index: 1;
+  width: 100%;
 }
 
 

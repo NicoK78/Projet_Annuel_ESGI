@@ -174,6 +174,66 @@
           </tbody>
       </table>
       </div>
+      <div class="row">
+        <div class="col-md-12 backBlue">
+          <p class="pt-2">Panorama des indicateurs de Performance</p>
+        </div>
+        <div class="row">
+          <div class="secondTable">
+            <table class="table mt-3">
+              <thead>
+                <th></th>
+                <th style="color:black;">
+                  <div style="text-align:center;"><img src="./assets/stopwatch.svg" width="30px" height="30px"></div>Général
+                </th>
+                <th style="color:black;">
+                  <div style="text-align:center;"><img src="./assets/target.svg" width="30px" height="30px"></div>Attaque
+                </th>
+                <th style="color:black;">
+                  <div style="text-align:center;"><img src="./assets/distribution.svg" width="30px" height="30px"></div>Distribution
+                </th>
+                 <th style="color:black;">
+                  <div style="text-align:center;"><img src="./assets/shield.svg" width="30px" height="30px"></div>Défense
+                </th>
+                <th style="color:black;">
+                  <div style="text-align:center;"><img src="./assets/analytics.svg" width="30px" height="30px"></div>Individuelles
+                </th>
+                <th class="backGreen">Stats/match</th>
+                <th class="backGrey">+ de saison</th>
+                <th class="backBlue paddingBlue">Total</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="textLeft">
+                    <span><img src="./assets/barStatia.png" width="18px" height="18px"></span>&nbsp;Performance
+                  </td>
+                  <td>6</td>
+                  <td>12</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>-</td>
+                  <td class="backGreen">34</td>
+                  <td class="backGrey">49</td>
+                  <td class="backBlue paddingBlue">83</td>
+                </tr>
+                <tr>
+                  <td class="textLeft">
+                    <span><img src="./assets/barStatia.png" width="18px" height="18px"></span>&nbsp;élite
+                  </td>
+                  <td>12</td>
+                  <td>32</td>
+                  <td>16</td>
+                  <td>24</td>
+                  <td>107</td>
+                  <td class="backGreen">191</td>
+                  <td class="backGrey">616</td>
+                  <td class="backBlue paddingBlue">807</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -188,6 +248,10 @@ export default {
 
 <style>
 
+#Solutions{
+  margin-top: 5%;
+}
+
 .tableGrey{
   background: #f2f2f2;
 }
@@ -196,6 +260,15 @@ export default {
   border: 0px !important;
   
 }
+
+
+.secondTable .table tr td {
+  text-align: center ;
+  color: #04ffcb;
+  font-size: x-large;
+  font-weight: bold;
+}
+
 
 .table thead th {
   text-align: right;
@@ -208,6 +281,28 @@ export default {
   float: right;
   
 }
+
+.backBlue {
+  color:white !important;
+  background: #65cdff;
+}
+
+.backGreen {
+  background: #04ffcb;
+  color: white !important
+}
+
+.backGrey {
+  background: #f2f2f2;
+  color:#65cdff !important;
+}
+.textLeft{
+  text-align: left !important;
+  color: #38cdff !important;
+}
+
+
+
 
 
 

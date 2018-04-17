@@ -16,7 +16,7 @@
             <router-link class="nav-link" to="/apropos">A Propos</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="/contact">Contact</a>
           </li>
         </ul>
       </div>

@@ -19,8 +19,8 @@
                         <p class="paragrapheInB" ><img width="25px" height="25px" src="./assets/home.svg" alt="">&nbsp;www.statia.fr</p>
                     </div>
                     <p class="paragrapheNextToP"><img src="./assets/barStatia.png" width="20px" height="20px" alt="">&nbsp;STATIA</p>
-                    <img src="./assets/Logo_statia.png" width="250px" height="61px" alt="">
-                    <p class="mt-5" style="font-size:80%;color:#7f7f7f;">76, rue de Tocqueville, 75017 Paris</p>
+                    <img style="float:left;" src="./assets/Logo_statia.png" width="250px" height="61px" alt=""><br/>
+                    <p class="punderImg" >76, rue de Tocqueville, 75017 Paris</p>
                 </div>
                 <div class="col-md-7 no-padding ">
                     <img width="670px" height="380px" src="./assets/map.png" alt="">
@@ -85,5 +85,11 @@ export default {
     text-align: start;
     color:#00daff;
     display: none;
+}
+
+.punderImg{
+    font-size:80%;
+    color:#7f7f7f;
+    margin-top: 6em !important;
 }
 </style>

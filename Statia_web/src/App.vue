@@ -13,7 +13,7 @@
             <router-link class="nav-link" to="/solutions">Solutions</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">A Propos</a>
+            <router-link class="nav-link" to="/about">A Propos</router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>

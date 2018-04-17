@@ -13,15 +13,15 @@
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <img src="./assets/whistle.png"></img>
+          <img src="./assets/whistle.png"/>
           <p>Travail spécifique à l'entraînement</p>
         </div>
         <div class="col-sm">
-          <img src="./assets/board.png"></img>
+          <img src="./assets/board.png"/>
           <p>Nouveaux choix de titularisation</p>
         </div>
         <div class="col-sm">
-          <img src="./assets/board.png"></img>
+          <img src="./assets/board.png"/>
           <p>Changement de dispositif tactique</p>
         </div>
       </div>
@@ -30,9 +30,9 @@
     <br><br>
 
     <ul class="no_bullet">
-      <li class="liOne">Comment filmer les matchs ? Quel matériel utiliser ?</li>
-      <li class="liTwo">Comment collecter, traiter et analyser les données sportives de son équipe et de l'adversaire ?</li>
-      <li class="liThree">Comment partager les vidéos et analyses statistiques des matchs avec ses joueurs et son staff ?</li>
+      <li class="liOne"><img src="./assets/camera.png"/>&nbsp;Comment filmer les matchs ? Quel matériel utiliser ?</li>
+      <li class="liTwo"><img src="./assets/analytics.png"/>&nbsp;Comment collecter, traiter et analyser les données sportives de son équipe et de l'adversaire ?</li>
+      <li class="liThree"><img src="./assets/team.png"/>&nbsp;Comment partager les vidéos et analyses statistiques des matchs avec ses joueurs et son staff ?</li>
     </ul>
 
     <br><br>
@@ -107,18 +107,22 @@ export default {
 
 <style>
 p {
-  text-align: center;
+  /*text-align: center;
   font-size: 20px;
   color: black;
-  font-weight: bold;
+  font-weight: bold;*/
 }
 
 li {
-  height: 60px;
+  /*height: 60px;
   text-align: left;
   font-size: 20px;
   vertical-align: center;
-  font-weight: bold;
+  font-weight: bold;*/
+}
+
+#About{
+  margin-top: 3%;
 }
 
 #imgBrain {
@@ -127,9 +131,9 @@ li {
 
 #textIntro {
   text-align: justify;
-  font-size: 25px;
+  font-size:20px;
   color: black;
-  font-weight: bold;
+  /*font-weight: bold;*/
   margin: 30px 50px 30px 50px;
 }
 
@@ -144,14 +148,12 @@ li {
   height: 120px;
 }
 
-.liOne {
-  background: url('./assets/camera.png') no-repeat left;
-}
-.liTwo {
-  background: url('./assets/analytics.png') no-repeat left;
-}
-.liThree {
-  background: url('./assets/team.png') no-repeat left;
+.no_bullet li{
+  list-style-type: none;
+  margin-bottom: 3%;
+  text-align: left;
+  font-size: 20px;
+
 }
 
 .tableGrey{

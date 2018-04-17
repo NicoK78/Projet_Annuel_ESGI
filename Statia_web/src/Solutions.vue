@@ -261,6 +261,9 @@ export default {
   
 }
 
+.table svg{
+  margin-right:25%; 
+}
 
 .secondTable .table tr td {
   text-align: center ;

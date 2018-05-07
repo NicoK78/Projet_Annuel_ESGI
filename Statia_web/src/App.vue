@@ -13,7 +13,7 @@
             <router-link class="nav-link" to="/solutions">Solutions</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/about">A Propos</router-link>
+            <router-link class="nav-link hide" to="/about">A Propos</router-link>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact</a>
@@ -28,8 +28,14 @@
 <script>
 
 export default {
-  name: 'App'
+  name: 'App',
+  created: function() {
+    let script = document.createElement('script')
+    script.setAttribute('src', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyD3vGKxTak7t_rIZ2lM7tivkgMQ9QiOWMY')
+    document.head.appendChild(script)
+  }
 }
+
 </script>
 
 <style>
@@ -50,5 +56,8 @@ nav{
   width: 100%;
 }
 
+.hide{
+  display: none;
+}
 
 </style>

@@ -4,6 +4,7 @@ import Home from '@/Home'
 import Solutions from '@/Solutions'
 import About from '@/About'
 import Contact from '@/Contact'
+import MyMap from '@/MyMap'
 
 Vue.use(Router)
 

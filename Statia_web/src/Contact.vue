@@ -24,6 +24,7 @@
                 </div>
                 <div class="col-md-7 no-padding ">
                     <img width="670px" height="380px" src="./assets/map.png" alt="">
+                    <!-- <google-map name="example"></google-map> -->
                 </div>
             </div>
         </div>

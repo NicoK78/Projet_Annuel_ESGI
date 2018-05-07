@@ -106,20 +106,6 @@ export default {
 </script>
 
 <style>
-p {
-  /*text-align: center;
-  font-size: 20px;
-  color: black;
-  font-weight: bold;*/
-}
-
-li {
-  /*height: 60px;
-  text-align: left;
-  font-size: 20px;
-  vertical-align: center;
-  font-weight: bold;*/
-}
 
 #About{
   margin-top: 3%;

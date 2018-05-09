@@ -35,7 +35,10 @@
 
 
 export default {
-  name: 'Contact'
+  name: 'Contact',
+  created:function(){
+     console.log(this);
+  }
 }
 </script>
 

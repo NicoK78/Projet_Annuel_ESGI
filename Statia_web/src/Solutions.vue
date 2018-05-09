@@ -3,16 +3,16 @@
     <div class="container">
 
       <div class="row m-5">
-        <div class="col-md-1">
+        <div class="col-md-1 hide">
           <img src="./assets/barStatia.png" width="50px" height="50px" alt="">
         </div>
-        <div class="col-md-11 backBlueContact">
+        <div class="col-md-12 backBlueContact">
           <p class="demandeRdv pt-2">Nos Solutions</p>
         </div>
       </div>
       <div class="col-md-10 offset-1">
         <div class="col-md-12">
-          <p>Afin d’assurer le suivi sportif de l’ensemble de vos équipes et ainsi accroitre l’intérêt des donateurs, 
+          <p style="text-align:justify;">Afin d’assurer le suivi sportif de l’ensemble de vos équipes et ainsi accroitre l’intérêt des donateurs, 
             Statia met à disposition de tous vos entraineurs une fonctionnalité permettant de collecter
              facilement les statistiques individuelles en match.</p>
              <img src="./assets/boyAndGirl.png" class="mb-5" width="280px" height="280px" alt="">
@@ -33,81 +33,143 @@
       </div>
 
       <div class="row m-5 pt-5">
-          <div class="col-md-1">
+          <div class="col-md-1 hide">
             <img src="./assets/barStatia.png" width="50px" height="50px" alt="">
           </div>
-          <div class="col-md-11 backBlueContact">
+          <div class="col-md-12 backBlueContact">
             <p class="demandeRdv pt-2">Panorama des indicateurs de Performance</p>
           </div>
         </div>
       <div class="col-md-10 offset-1">
-        <div class="row">
-          <div class="secondTable">
-            <table class="table mt-3">
-              <thead>
-                <th></th>
-                <th style="color:black;">
-                  <div style="text-align:center;"><img src="./assets/stopwatch.svg" width="30px" height="30px"></div>Général
-                </th>
-                <th style="color:black;">
-                  <div style="text-align:center;"><img src="./assets/target.svg" width="30px" height="30px"></div>Attaque
-                </th>
-                <th style="color:black;">
-                  <div style="text-align:center;"><img src="./assets/distribution.svg" width="30px" height="30px"></div>Distribution
-                </th>
-                 <th style="color:black;">
-                  <div style="text-align:center;"><img src="./assets/shield.svg" width="30px" height="30px"></div>Défense
-                </th>
-                <th style="color:black;">
-                  <div style="text-align:center;"><img src="./assets/analytics.svg" width="30px" height="30px"></div>Individuelles
-                </th>
-                <th class="">Stats/match</th>
-                <th class="">Stats/saison</th>
-                <th class="">Total</th>
-              </thead>
-              <tbody>
-                <tr class="text-left">
-                  <td class="textLeft">
-                    <img src="./assets/barStatia.png" width="18px" height="18px">&nbsp;Replay
-                  </td>
-                  <td class="orangeReplay">-</td>
-                  <td class="orangeReplay">-</td>
-                  <td class="orangeReplay">-</td>
-                  <td class="orangeReplay">-</td>
-                  <td class="orangeReplay">-</td>
-                  <td class="orangeReplay">-</td>
-                  <td class="orangeReplay">-</td>
-                  <td class="orangeReplay paddingBlue">6</td>
-                </tr>
-                <tr class="text-left">
-                  <td class="textLeft">
-                  <img  src="./assets/barStatia.png"  width="20px" height="20px">&nbsp;Performance
-                  </td>
-                  <td class="bleuPerformance">8</td>
-                  <td class="bleuPerformance">10</td>
-                  <td class="bleuPerformance">8</td>
-                  <td class="bleuPerformance">6</td>
-                  <td class="bleuPerformance">6</td>
-                  <td class="bleuPerformance">38</td>
-                  <td class="bleuPerformance">73</td>
-                  <td class="bleuPerformance paddingBlue">111</td>
-                </tr>
-                <tr class="text-left">
-                  <td class="textLeft">
-                    <span><img src="./assets/barStatia.png" width="18px" height="18px"></span>&nbsp;élite
-                  </td>
-                  <td class="greenElite">18</td>
-                  <td class="greenElite">30</td>
-                  <td class="greenElite">16</td>
-                  <td class="greenElite">18</td>
-                  <td class="greenElite">28</td>
-                  <td class="greenElite">110</td>
-                  <td class="greenElite">154</td>
-                  <td class="greenElite paddingBlue">264</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <div>
+          <table id=tablePanorama>
+            <thead>
+              <th></th>
+              <th align="top" class="ml-3" style="width:22%;">
+                <img src="./assets/replay.png" width="80px" height="24" alt="">
+              </th>
+              <th style="width:22%;">
+                <img src="./assets/performance.png" width="150px" height="24px" alt="">
+              </th>
+              <th style="width:22%;">
+                <img src="./assets/elite.png" width="65px" height="20px"  alt="">
+              </th>
+            </thead>
+            <tbody>
+              <tr >
+                <td>
+                  <div style="text-align:center;"><img class="m-3 pull-left"  src="./assets/stopwatch.svg" width="80px" height="80px"><p class="pt-5 text-left">Général</p></div>
+                </td>
+                <td class="orangeReplay">
+                  <p>-</p>
+                </td>
+                <td class="bleuPerformance">
+                  <p>8</p>
+                </td>
+                <td class="greenElite">
+                  <p>18</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div style="text-align:center;"><img class="m-3 pull-left" src="./assets/target.svg" width="80px" height="80px"><p class="pt-5 text-left">Attaque</p></div>
+                </td>
+                <td class="orangeReplay">
+                  <p>-</p>
+                </td>
+                <td class="bleuPerformance">
+                  <p>10</p>
+                </td>
+                <td class="greenElite">
+                  <p>30</p>
+                </td>
+              </tr>
+              <tr>
+                <td style="width:30%;">
+                  <div style="text-align:center;"><img class="m-3 pull-left" src="./assets/distribution.svg" width="80px" height="80px"><p class="pt-5 text-left">Distribution</p></div>
+                </td>
+                <td class="orangeReplay">
+                  <p>-</p>
+                </td>
+                <td class="bleuPerformance">
+                  <p>8</p>
+                </td>
+                <td class="greenElite">
+                  <p>16</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div style="text-align:center;"><img class="m-3 pull-left" src="./assets/shield.svg" width="80px" height="80px"><p class="pt-5 text-left">Défense</p></div>
+                </td>
+                <td class="orangeReplay">
+                  <p>-</p>
+                </td>
+                <td class="bleuPerformance">
+                  <p>6</p>
+                </td>
+                <td class="greenElite">
+                  <p>18</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div style="text-align:center;"><img class="m-3 pull-left" src="./assets/analytics.svg" width="80px" height="80px"><p class="pt-5 text-left">Individuelles</p></div>
+                </td>
+                <td class="orangeReplay">
+                  <p>6</p>
+                </td>
+                <td class="bleuPerformance">
+                  <p>6</p>
+                </td>
+                <td class="greenElite">
+                  <p>28</p>
+                </td>
+              </tr>
+              <tr style="height:80px;">
+                <td>
+                  <p class="text-left pt-4">Statistiques par match</p>
+                </td>
+                <td>
+                  <p class="orangeReplayColor">6</p>
+                </td>
+                <td>
+                  <p class="bleuPerformanceColor">38</p>
+                </td>
+                <td>
+                  <p class="greenEliteColor">110</p>
+                </td>
+              </tr>
+              <tr style="height:80px;">
+                <td>
+                  <p class="text-left pt-4">Statistiques de saison**</p>
+                </td>
+                <td>
+                  <p class="orangeReplayColor">44</p>
+                </td> 
+                <td>
+                  <p class="bleuPerformanceColor">73</p>
+                </td>
+                <td>
+                  <p class="greenEliteColor">154</p>
+                </td>
+              </tr>
+              <tr style="height:80px;">
+                <td >
+                  <p class="text-left pt-4">Indicateurs de performance</p>
+                </td>
+                <td class="orangeReplay">
+                  <p>50</p>
+                </td>
+                <td class="bleuPerformance">
+                  <p>111</p>
+                </td>
+                <td class="greenElite">
+                  <p>264</p>
+                </td>
+              </tr>       
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -118,7 +180,10 @@
 
 
 export default {
-  name: 'Solutions'
+  name: 'Solutions',
+  created:function(){
+     console.log(window.screen.top);
+  }
 }
 </script>
 
@@ -128,6 +193,13 @@ export default {
   margin-top: 7%;
 }
 
+#tablePanorama{
+  width: 100%;
+}
+
+#tablePanorama p{
+  font-size: 1.1em;
+}
 .tableGrey{
   background: #f2f2f2;
 }
@@ -185,14 +257,41 @@ export default {
 
 .orangeReplay{
   background: #ff912c;
+  color: white;
+  font-size: 23px !important;
+  padding-top: 1.1em !important;
+}
+
+.orangeReplayColor{
+  color: #ff912c;
+  font-size: 23px !important;
+  padding-top: 1.1em !important;
 }
 
 .bleuPerformance{
   background: #38ceff;
+  color:white;
+  font-size: 23px !important;
+  padding-top: 1.1em !important;
+}
+
+.bleuPerformanceColor{
+  color: #38ceff;
+  font-size: 23px !important;
+  padding-top: 1.1em !important;
 }
 
 .greenElite{
   background: #00dfac;
+  color: white;
+  font-size: 23px !important;
+  padding-top: 1.1em !important;
+}
+
+.greenEliteColor{
+  color: #00dfac;
+  font-size: 23px !important;
+  padding-top: 1.1em !important;
 }
 
 .hide{
@@ -200,7 +299,7 @@ export default {
 }
 
 .demandeRdv{
-    text-align: start;
+    text-align: center;
     color: white;
     font-size: 161%;
     font-weight: 500;
@@ -214,6 +313,8 @@ export default {
 .pull-left{
   float: left;
 }
+
+
 
 
 
